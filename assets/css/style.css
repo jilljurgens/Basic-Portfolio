@@ -14,6 +14,13 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 color: #777777;
 
 }
+h2{
+	color: #4aaaa5;
+}
+h3{
+	color: #4aaaa5;
+	text-align: center;
+}
 .header{
 	width: 100%;
 	height: 100px;
@@ -28,8 +35,8 @@ color: #777777;
 }
 
 #name {
-	width: 300px;
-	height: 100px;
+	width: 200px;
+	height: 40px;
 	background-color: #4aaaa5;
 	color: white;
 	font-size: 30px;
@@ -39,7 +46,8 @@ color: #777777;
 	position: absolute;
 	top: 0px;
 	left: 75px;
-
+	padding: 30px;
+	
 
 }
 
@@ -48,57 +56,73 @@ color: #777777;
 }
 
 #about{
-	width: 75px;
-	height: 100px;
-	background-color: red;
+	width: 40px;
+	height: 30px;
+	background-color: #ffffff;
 	position: absolute;
 	top: 0px;
 	right: 300px;
+	padding: 35px;
 
 }
 #portfolio{
-	width: 75px;
-	height: 100px;
-	background-color: red;
+	width: 40px;
+	height: 30px;
+	background-color: #ffffff;
 	position: absolute;
 	top: 0px;
 	right: 200px;
+	padding: 35px;
 }
 
 #contact{
-	width: 75px;
-	height: 100px;
-	background-color: red;
+	width: 40px;
+	height: 30px;
+	background-color: #ffffff;
 	position: absolute;
 	top: 0px;
-	right: 75px;
+	right: 85px;
+	padding: 35px;
 }
 .middlesection{
 	clear: both;
 	height: 500px;
 	position: relative;
 	top: 20px;
-	background-color: green;
+	background-image: url(../images/cork-wallet.png);
+	background-color: #e8eaed;
 	width: 100%;
 
 }
 .contentblock{
 	clear: both;
 	height: 400px;
-	width: 500px;
-	background-color: purple;
+	width: 650px;
+	background-color: #ffffff;
 	/*margin-left: 100px;*/
-	width: 70%;
+	width: 50%;
 	position: absolute;
-	left: 50px;
+	left: 100px;
+	border: 2px solid #dddddd;
+	margin-left: auto;
 
 }
+#aboutme{
+	border-bottom: 2px solid #dddddd;
+	margin: 15px;
+}
+.me{
+	margin-left: 100px;
+	
+}
 .connectwithme{
-	height: 250px;
-	width: 250px;
-	background-color: yellow;
+	height: 200px;
+	width: 270px;
+	background-color: #ffffff;
 	position: absolute;
 	right: 50px;
+	border: 2px solid #dddddd;
+	margin-right: auto;
 	/*border-top: #cccccc 2px solid;*/
 	
 
@@ -107,10 +131,14 @@ color: #777777;
 #Footer{
 	clear: both;
 	width: 100%;
-	height: 30px;
-	background-color: pink;
+	height: 20px;
+	background-color: #666666;
 	color: white;
 	bottom: 0px;
+	text-align: center;
+	padding: 35px;
+	font-size: 15px;
+	border-top: 10px solid #4aaaa5;
 
 }
 
