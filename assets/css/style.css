@@ -88,7 +88,7 @@ h3{
 	clear: both;
 	height: 500px;
 	position: relative;
-	top: 20px;
+	top: 0px;
 	background-image: url(../images/cork-wallet.png);
 	background-color: #e8eaed;
 	width: 100%;
@@ -105,6 +105,7 @@ h3{
 	left: 100px;
 	border: 2px solid #dddddd;
 	margin-left: auto;
+	top: 20px;
 
 }
 #aboutme{
@@ -113,6 +114,11 @@ h3{
 }
 .me{
 	margin-left: 100px;
+}
+.connectimage{
+	height: 50px;
+	width: 50px;
+	padding: 10px;
 	
 }
 .connectwithme{
@@ -120,9 +126,11 @@ h3{
 	width: 270px;
 	background-color: #ffffff;
 	position: absolute;
-	right: 50px;
+	right: 100px;
 	border: 2px solid #dddddd;
 	margin-right: auto;
+	top: 20px;
+
 	/*border-top: #cccccc 2px solid;*/
 	
 
