@@ -13,29 +13,42 @@
 		<!-- this is the top header -->
 			<header class="header">
 	 				
-	 				<h1 id=name>Jill Jurgens</h1>
+	 				<h1 class ="name">Jill Jurgens</h1>
 	 			
-	 			<div class="headerlinks">
+	 			<div>
 		 			<!-- connect link in header -->
-		 			<a href="file:///C:/Users/strue/Desktop/Homework1/Basic-Portfolio/contact.html" id="contact">Contact</a>
+		 			<a class="headerlinks" href="file:///C:/Users/strue/Desktop/Homework1/Basic-Portfolio/contact.html">Contact</a>
 		 			<!-- porfolio link in header -->
-		 			<a href="file:///C:/Users/strue/Desktop/Homework1/Basic-Portfolio/portfolio.html" id="portfolio">Portfolio</a>
+		 			<a class="headerlinks" href="file:///C:/Users/strue/Desktop/Homework1/Basic-Portfolio/portfolio.html">Portfolio</a>
 		 			<!-- about link in header -->
-		 			<a href="file:///C:/Users/strue/Desktop/Homework1/Basic-Portfolio/index.html" id="about">About</a>
+		 			<a class="headerlinks" href="file:///C:/Users/strue/Desktop/Homework1/Basic-Portfolio/index.html">About</a>
 	 			</div>
  			</header> 
  			<!-- end of top header -->
- 			<div class="middlesection">
- 			<!-- the container for the about me piece -->
-	 			<section class="contentblock">
-					<div id="aboutme">	
-		 				<h2>About Me</h2>
+ 			<div class="middlesection" style="clear: both;
+    position: relative;">
+ 			<!-- the container for the contact piece -->
+	 			<section class="contactblock">
+					<div class ="aboutme">	
+		 				<h2>Contact</h2>
 					</div>
-		 				<img src="./assets/images/ProfilePic.jpg" alt="Jill Jurgens" style="float: left; margin: 15px; ">
+		 			<form action="mailto:jurgensjill@gmail.com" method="post" enctype="text/plain">
+		 				Name:<br><br>
+		 				<input id="nameinput" type="text" name="name">
+		 				<br>
+		 				<br>
+		 				Email:<br><br>
+		 				<input id="emailinput" type="Email" name="email">
+		 				<br>
+		 				<br>
+		 				Message:<br><br>
+		 				<textarea id="messageinput"></textarea>
+		 				<br><br>
+		 				<input id="submit type="submit" name="submit">
+		 			</form>	
 		 				
-		 				<p class="me">Hello World! My name is Jill Jurgens and I am currently working on a Full Stack Developer certification from Kansas University. I will graduate from the program on March 17, 2018.</p>
-		 				<p class="me">I went to Northwest Missouri State Univeristy several years ago and obtained a BS is Public Relations. I've been employeed by Children International for over 10 years now and in my time there I have held the following positions: Administrative Assistant, Quauitly Assurance, Systems Coordinator, and Teir 2 Application Support. I love learning programs and how they work which is why I've decided to take the next step in my career and learn how to develop on both the front and back end.</p>
-		 			</section>	
+		 				
+		 		</section>	
 						
 	 		
 	 			<section class="connectwithme">
@@ -47,7 +60,7 @@
 	 			</section>
 			</div>
 			<!-- Footer -->
-			<footer id="Footer">@Copyright 2017 Jill Jurgens</footer>
+			<div class="Footer">@Copyright 2017 Jill Jurgens</div>
 
 <!-- 		
 		<section>
