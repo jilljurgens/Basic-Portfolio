@@ -79,7 +79,7 @@ h3{
 }
 .contentblock{
 	clear: both;
-	height: 470px;
+	height: auto;
 	width: 600px;
 	background-color: #ffffff;
 	margin-left: 100px;
@@ -134,6 +134,9 @@ form {
 	color: #777777;
 	margin-left: 20px;
 }
+#contactcontentblock{
+	height: 900px;
+}
 
 #nameinput, #emailinput{
 	height: 20px;
@@ -147,6 +150,14 @@ form {
 	height: 150px;
     width: 556px;
     border: 2px solid #dddddd;
+
+}
+#submit{
+	width: 100px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
 }
 /*example for portfolio*/
 
