@@ -129,18 +129,10 @@ h3{
 }
 
 form {
-	clear: both;
+	
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	margin-left: 20px;
-	height: 470px;
-	width: 600px;
-	background-color: #ffffff;
-	margin-left: auto;
-	position: absolute;
-	left: 150px;
-	border: 2px solid #dddddd;
-	top: 20px;
 }
 
 #nameinput, #emailinput{
@@ -158,7 +150,7 @@ form {
 }
 /*example for portfolio*/
 
-#Footer{
+.Footer{
 	clear: both;
 	width: 100%;
 	height: 20px;
