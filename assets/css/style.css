@@ -169,18 +169,18 @@ form {
     height: 30px;
     width: 200px;
     left: 50px;
-    top: 170px;
+    bottom: 40px;
     font-weight: bolder;
     position: absolute;
-    float: left;
     text-align: center;
-    padding-top: 5px;
-}
-#img1{
-position: relative;
+    padding-top: 10px;
+    font-size: 22px;
 
 }
-/*Starting to mess with this!!*/
+.picturewrap{
+	position: relative;
+	float: left;
+}
 
 #contactcontentblock{
 	height: 510px;
@@ -207,7 +207,7 @@ position: relative;
 	padding: 10px;
 	margin-bottom: 10px;
 }
-/*example for portfolio*/
+
 
 
 
